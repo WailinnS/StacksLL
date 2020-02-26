@@ -6,7 +6,8 @@ namespace StacksLL
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Stack<int> myStack = new Stack<int>();
+            myStack.Push(3);
         }
     }
 }
